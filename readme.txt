@@ -3,15 +3,15 @@
 Plugin Name: Share This
 Plugin URI: http://www.jameswilkesdesign.co.uk/wordpress-plugin-to-share-posts/
 Description: Adds links at the bottom of posts to share via Email, StumbleUpon, Digg, Facebook, Twitter.
-Version: 1.0
+Version: 1.1
 Author: James Wilkes
 Author URI: http://www.jameswilkesdesign.co.uk/
 License: GPL2
 Contributors: James Wilkes
 Tags: Digg, Facebook, social bookmarking, content, share, email, twitter, posts, post
 Requires at least: 2.9
-Tested up to: 2.9.2
-Stable tag: 1.0
+Tested up to: 3.03
+Stable tag: 1.1
 Donate link: http://www.jameswilkesdesign.co.uk/donate/
 == Description ==
 
@@ -38,6 +38,9 @@ Install it and all posts will have a "share this" section added for visitors to 
 
 = 1.0 =
 * Stable release
+
+= 1.1 =
+* Bug fix since Twitter changed the format of URLs for submissions
 
 == Upgrade Notice ==
 

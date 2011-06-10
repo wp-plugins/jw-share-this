@@ -3,7 +3,7 @@
 Plugin Name: Share This
 Plugin URI: http://www.jameswilkesdesign.co.uk/wordpress-plugin-to-share-posts/
 Description: Adds links at the bottom of posts to share via Email, StumbleUpon, Digg, Facebook, Twitter.
-Version: 1.0
+Version: 1.1
 Author: James Wilkes
 Author URI: http://www.jameswilkesdesign.co.uk/
 License: GPL3
@@ -47,7 +47,8 @@ function jw_share_this_links($content) {
 	$content .= "<a target=\"_blank\" href=\"http://www.facebook.com/sharer.php?u=" . urlencode($url) . "&amp;t=" . urlencode($title) . "\">\n";
 	$content .= "<img src=\"" . plugins_url('fb.png', __FILE__) . "\" alt=\"Share this page via Facebook\" />\n";
 	$content .= "</a>\n";
-	$content .= "<a target=\"_blank\" href=\"http://twitter.com/home?status=I+like+" . urlencode($url) . "&amp;title=" . urlencode($title) . "\">\n";
+//	$content .= "<a target=\"_blank\" href=\"http://twitter.com/home?status=I+like+" . urlencode($url) . "&amp;title=" . urlencode($title) . "\">\n";
+	$content .= "<a target=\"_blank\" href=\"http://twitter.com/intent/tweet?text=I+like+" . urlencode($url) . "&amp;title=" . urlencode($title) . "\">\n";
 	$content .= "<img src=\"" . plugins_url('twitter.png', __FILE__) . "\" alt=\"Share this page via Twitter\" />\n";
 	$content .= "</a>\n";
 	$content .= "</div>\n";
